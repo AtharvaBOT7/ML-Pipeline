@@ -1,0 +1,7 @@
+Steps to build the pipeline:
+1. Creating a Github repository and cloning it in our local machine.
+2. Adding a src folder in the local machine and then adding all the individual ML pipeline components in it for modular coding.
+3. Adding the data models and reports to the gitignore file.
+
+In this video we will mostly focus on building our ML pipeline, here is the basic layout:
+Data Ingestion -> 
