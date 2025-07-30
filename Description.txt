@@ -33,3 +33,8 @@ dvc pipeline with parameters.
 8. Creating dvc pipeline with parameters.
 9. Add params.yaml file.
 10. Add params setup.
+
+Now we have tested the dvc pipeline with parameters, now we will perform few experiments with dvc.
+
+11. Add dvclive code block in the model_evaluation file.
+12. 
