@@ -79,7 +79,7 @@ def apply_tfidf(train_data: pd.DataFrame, test_data: pd.DataFrame, max_features:
         logger.debug('tfidf applied and data transformed')
         return train_df, test_df
     except Exception as e:
-        logger.error('Error during Bag of Words transformation: %s', e)
+        logger.error('Error during tfidf transformation: %s', e)
         raise
 
 def save_data(df: pd.DataFrame, file_path: str) -> None:
