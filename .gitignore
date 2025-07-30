@@ -3,6 +3,7 @@ models
 reports
 mlopsproj1
 environment.txt
+logs
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
