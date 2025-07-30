@@ -15,3 +15,13 @@ This will download the en core model for spacy.
 We will create a dvc pipeline without parameters at first to check if everything is working smoothly.
 Now we have added our modular coding files on github, the next step is:
 4. Create dvc.yaml file and add stages to it.
+
+Now that we have created a dvc.yaml file, we will need to initialise dvc to run the pipeline through dvc.
+
+5. Initialise dvc using "dvc init" 
+6. To run the pipeline using dvc, we will run "dvc repro" in the terminal. This will automatically run the dvc.yaml file and the stages we have defined in it.
+7. Execute "dvc dag" to get a visual representation of the blocks run by dvc pipeline. (It gives a directed acyclic graph output)
+
+IMPORTANT
+** If we change code in one of the files, example if we make changes in the feature_engineering.py file, then dvc will not run the data_ingestion and data_preprocessing files, this is 
+because these files are present before the feature_engineering file in the pipeline and therefore no need to run them again as we have changed the pipeline from feature_engineering. **
