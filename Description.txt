@@ -25,3 +25,11 @@ Now that we have created a dvc.yaml file, we will need to initialise dvc to run 
 IMPORTANT
 ** If we change code in one of the files, example if we make changes in the feature_engineering.py file, then dvc will not run the data_ingestion and data_preprocessing files, this is 
 because these files are present before the feature_engineering file in the pipeline and therefore no need to run them again as we have changed the pipeline from feature_engineering. **
+
+Now we are going to change the dvc pipeline and make it with parameters.
+This is really important because we might have a lot of configurable parameters for eg 50, we cannot go in our code and make changes manually to 50 places, instead we will create a 
+dvc pipeline with parameters.
+
+8. Creating dvc pipeline with parameters.
+9. Add params.yaml file.
+10. Add params setup.
