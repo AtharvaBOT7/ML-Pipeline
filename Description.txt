@@ -5,3 +5,9 @@ Steps to build the pipeline:
 
 In this video we will mostly focus on building our ML pipeline, here is the basic layout:
 Data Ingestion -> 
+
+
+We will use spacy to tokenize the string present in the text column of our dataset, we know that the data is present in english
+language therefore we need to run this command in our environment first:
+"python -m spacy download en_core_web_sm"
+This will download the en core model for spacy.
