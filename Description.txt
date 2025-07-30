@@ -12,5 +12,6 @@ This will download the en core model for spacy.
 
 3. Adding the data models and reports to the gitignore file.
 
+We will create a dvc pipeline without parameters at first to check if everything is working smoothly.
 Now we have added our modular coding files on github, the next step is:
 4. Create dvc.yaml file and add stages to it.
