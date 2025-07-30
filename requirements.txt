@@ -5,3 +5,4 @@ numpy
 matplotlib
 spacy 
 nltk 
+wordcloud
