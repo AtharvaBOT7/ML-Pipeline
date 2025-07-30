@@ -37,8 +37,4 @@ dvc pipeline with parameters.
 Now we have tested the dvc pipeline with parameters, now we will perform few experiments with dvc.
 
 11. Add dvclive code block in the model_evaluation file.
-12. We will run dvc exp run and install the dvc extension, with this we can see a table which contains all the pipelines we ran 
-    along with their metrics like accuracy, precision etc and the parameters we set. 
-
-We will now setup a remote S3 storage:
-13. 
+12. 
